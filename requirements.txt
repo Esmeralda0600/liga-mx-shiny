@@ -1,3 +1,9 @@
-shiny
-seaborn
 pandas
+numpy
+matplotlib
+plotly
+jupyter
+notebook
+shiny
+shinywidgets
+pyarrow
