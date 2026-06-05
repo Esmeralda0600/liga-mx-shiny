@@ -6,8 +6,10 @@ import pandas as pd
 #df = pd.read_csv(app_dir / "penguins.csv")
 ruta = Path(__file__).parent /"../data/processed"
 
-partidos = pd.read_parquet(ruta / "partidos.parquet")
+#partidos = pd.read_parquet(ruta / "partidos.parquet")
 ultimas_valuaciones = pd.read_parquet(ruta / "ultimas_valuaciones.parquet")
 historico_valuaciones = pd.read_parquet(ruta / "historico_valuaciones.parquet")
+rendimiento_equipos = pd.read_parquet(ruta / "rendimiento_equipos.parquet")
 
 lista_jugadores = sorted(historico_valuaciones["name"].dropna().unique())
+lista_equipos = sorted(rendimiento_equipos["Equipo"].dropna().unique())
