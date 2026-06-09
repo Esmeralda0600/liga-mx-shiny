@@ -1,4 +1,0 @@
-shiny
-shinywidgets
-plotly
-pandas
