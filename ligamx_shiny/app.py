@@ -1,8 +1,4 @@
-#import seaborn as sns
-#import plotly.express as px
-#from shinywidgets import output_widget, render_widget
-#import data from shared.py
-#import shared
+
 from shiny import App, ui
 from components.paneles import panel_mercado_jugadores, panel_rendimiento_equipos
 from components.server import mercado_server, rendimiento_server

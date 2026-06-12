@@ -1,7 +1,7 @@
 from shiny import ui
 from shinywidgets import output_widget
 
-from ligamx_shiny import shared
+from components import shared
 #import shared
 
 def panel_mercado_jugadores():

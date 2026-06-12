@@ -5,7 +5,6 @@ import pandas as pd
 
 ruta = Path(__file__).parent /"../data/processed"
 
-#partidos = pd.read_parquet(ruta / "partidos.parquet")
 ultimas_valuaciones = pd.read_parquet(ruta / "ultimas_valuaciones.parquet")
 historico_valuaciones = pd.read_parquet(ruta / "historico_valuaciones.parquet")
 rendimiento_equipos = pd.read_parquet(ruta / "rendimiento_equipos.parquet")

@@ -1,6 +1,6 @@
 from shinywidgets import render_widget
 import plotly.express as px
-from ligamx_shiny import shared
+from components import shared
 
 def mercado_server(input,output,session):
     @render_widget
