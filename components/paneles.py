@@ -15,13 +15,13 @@ def panel_mercado_jugadores():
                         id="jugador_a",
                         label="Selecciona un jugador: ",
                         choices=shared.lista_jugadores,
-                        selected="André-Pierre Gignac" if "André-Pierre Gignac" in shared.lista_jugadores else None
+                        selected=shared.jugador1_mas_valioso if shared.jugador1_mas_valioso  in shared.lista_jugadores else None
                     ),
                     ui.input_select(
                         id="jugador_b",
                         label="Selecciona un jugador: ",
                         choices=shared.lista_jugadores,
-                        selected="Rogelio Funes Mori" if "Rogelio Funes Mori" in shared.lista_jugadores else None
+                        selected=shared.jugador2_mas_valioso if shared.jugador2_mas_valioso in shared.lista_jugadores else None
                     ),
                 ),
                 ui.layout_columns(
